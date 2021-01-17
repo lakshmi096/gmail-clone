@@ -1,0 +1,35 @@
+.section {
+    flex:0.2;
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+    text-transform: capitalize;
+    color: gray;
+    border-width: 0 !important;
+}
+
+.section > .MuiSvgIcon-root {
+    padding: 10px;
+}
+
+.section:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    /* border-width: 3px !important; */
+}
+
+.section--active {
+    /* background-color: whitesmoke; */
+    cursor: pointer;
+    border-width: 3px !important;
+}
+
+.section--primary {
+    color: #c04b37;
+}
+.section--social {
+    color: blue;
+}
+.section--promotions {
+    color: green;
+}

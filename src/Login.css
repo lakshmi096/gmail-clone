@@ -1,0 +1,17 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: linear-gradient(to top right, #19191a 5%, #383335 81%);
+}
+
+.login__container > img {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 150px;
+  width: 150px;
+}

@@ -1,0 +1,58 @@
+.composeMail {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    background-color: #404040;
+    width: 40%;
+    height: 40%;
+    max-width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+    z-index: 999;
+}
+
+.composeMail__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+    color: gray;
+}
+
+.composeMail__close {
+    cursor: pointer;
+}
+
+.composeMail__header > h3,
+.composeMail__send {
+    text-transform: capitalize !important;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.composeMail > form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.composeMail > form > input {
+    height: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.composeMail__body {
+    flex: 1;
+}
+
+.composeMail__send {
+    margin: 8px 15px !important;
+}
